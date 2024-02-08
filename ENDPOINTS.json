@@ -1,0 +1,66 @@
+{
+	"id": "e79f78e4-eea5-4907-804b-acf2062d2629",
+	"name": "API citas",
+	"timestamp": "2024-02-08T18:41:55.640Z",
+	"collection_id": "32764570-04b5a65d-b59a-46d9-84bb-6868b482e94c",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-02-08T18:41:54.501Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d15a5199-04d1-4038-a99b-f5765170181e",
+			"name": "GET citas",
+			"url": "http://localhost/citas2024/",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				18
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "845e369b-a39c-4da7-8a81-96063478a4a9",
+			"name": "{{baseUrl}}GET citas por query",
+			"url": "http://localhost/citas2024/",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 26,
+	"collection": {
+		"requests": [
+			{
+				"id": "d15a5199-04d1-4038-a99b-f5765170181e",
+				"method": "GET"
+			},
+			{
+				"id": "845e369b-a39c-4da7-8a81-96063478a4a9",
+				"method": "GET"
+			}
+		]
+	}
+}
